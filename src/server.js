@@ -26,6 +26,7 @@ app.use("/", webRoutes);
 //     console.log("result", result)
 //   }
 // )
+connection()
 
 app.listen(port, hostname, () => {
   console.log(`Example app listening on port ${port}`);
